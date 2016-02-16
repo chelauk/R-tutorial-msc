@@ -13,10 +13,12 @@ This tutorial is intended to give you an overview of the workflow commonly emplo
 
 
 ## Aligning Sequence Data
-The file we receive following sequencing is known as a fastq, it typically consists of millions of lines but each sequening read is encoded by four lines
+The file we receive following sequencing is known as a fastq, it typically consists of millions of lines but each sequence read is encoded by four lines
 ```
 @SEQ_ID
 GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
 +
 !''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
 ```
+
+The id line is unique for each read and it tells us which machine and lane the read comes from and whether it is the first or second of a pair of reads.

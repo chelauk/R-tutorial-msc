@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-#para {
-    text-align: center;
-    color: red;
-}
 
 
 # Exploring and Annotating Variants using Bioconductor
@@ -20,10 +14,9 @@ This tutorial is intended to give you an overview of the workflow commonly emplo
 
 ## Aligning Sequence Data
 The file we receive following sequencing is known as a fastq, it typically consists of millions of lines but each sequening read is encoded by four lines
-<span id=para>
+```
 @SEQ_ID
 GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
 +
 !''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
-</span>
-</html>
+```

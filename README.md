@@ -1,4 +1,4 @@
-#raw {
+.para {
     text-align: center;
     color: red;
 }

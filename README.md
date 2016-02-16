@@ -21,4 +21,4 @@ GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
 !''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
 ```
 
-The id line is unique for each read and it tells us which machine and lane the read comes from and whether it is the first or second of a pair of reads.
+The id line is unique for each read and it tells us which machine and lane the read comes from and whether it is the first or second of a pair of reads. The second is the sequence of the read, the third a spacer and the fourth an ascii code for the quality of each base call of the sequence read

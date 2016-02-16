@@ -51,6 +51,8 @@ The fastq is aligned usually using a high performance computer or cluster using 
 
 
 The output is a sam file or its equivalent compressed bam file
+<a href="https://samtools.github.io/hts-specs/SAMv1.pdf">Full specification for SAM here</a>
+
 
 ```
 NB501092:15:H5JJLAFXX:1:11101:4282:1085	81	2	16080075	60	80M	=	16079505	-650	TTCAATTTGAAACTGGAAACATCCAGAGGTCTTGTTCCTAAGGGGGCGCGGCCGCTCCCTGCTATTTTGCACCTTCGGAC	/EEEE6EE/EEE/EA/6EEE/EEEEAEEEEEE6E/EEEEEEEEEEEEAEE/EE6EEEEEEEEEEE6EEEEEEEEEAA//A	NM:i:2	MD:Z:50T2T26	AS:i:70	XS:i:19	RG:Z:ping_test

@@ -58,4 +58,6 @@ The output is a sam file or its equivalent compressed bam file
 NB501092:15:H5JJLAFXX:1:11101:4282:1085	81	2	16080075	60	80M	=	16079505	-650	TTCAATTTGAAACTGGAAACATCCAGAGGTCTTGTTCCTAAGGGGGCGCGGCCGCTCCCTGCTATTTTGCACCTTCGGAC	/EEEE6EE/EEE/EA/6EEE/EEEEAEEEEEE6E/EEEEEEEEEEEEAEE/EE6EEEEEEEEEEE6EEEEEEEEEAA//A	NM:i:2	MD:Z:50T2T26	AS:i:70	XS:i:19	RG:Z:ping_test
 ```
 
+## Calling variants with GATK
 
+Following alignment, we then call those regions of the test sequence that differ from the reference, there are various variat callers but we will discuss the <a href="https://www.broadinstitute.org/gatk/">Genome Analysis Toolkit</a> (GATK) pipeline.  The GATK pipeline is developed 

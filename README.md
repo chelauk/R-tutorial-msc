@@ -47,3 +47,13 @@ The id line is unique for each read and it tells us which machine and lane the r
      (Note: See discussion above).
  L - Illumina 1.8+ Phred+33,  raw reads typically (0, 41)
  ```
+The fastq is aligned usually using a high performance computer or cluster using software such as novoalign, stampy or BWA, this software takes each of these reads which are randomly distributed in the fastq and aligns to the reference sequence (in the case of the human reference ~3000 000 000 nucleotides.
+
+
+The output is a sam file or its equivalent compressed bam file
+
+```
+NB501092:15:H5JJLAFXX:1:11101:4282:1085	81	2	16080075	60	80M	=	16079505	-650	TTCAATTTGAAACTGGAAACATCCAGAGGTCTTGTTCCTAAGGGGGCGCGGCCGCTCCCTGCTATTTTGCACCTTCGGAC	/EEEE6EE/EEE/EA/6EEE/EEEEAEEEEEE6E/EEEEEEEEEEEEAEE/EE6EEEEEEEEEEE6EEEEEEEEEAA//A	NM:i:2	MD:Z:50T2T26	AS:i:70	XS:i:19	RG:Z:ping_test
+```
+
+

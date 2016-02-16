@@ -1,4 +1,6 @@
-.para {
+<!DOCTYPE html>
+<html lang="en">
+#para {
     text-align: center;
     color: red;
 }
@@ -24,3 +26,4 @@ GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
 +
 !''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
 </span>
+</html>
